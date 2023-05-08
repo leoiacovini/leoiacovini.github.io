@@ -53,7 +53,7 @@ export default function NewHome() {
                 A seasoned Software Engineer with strong background in <b>Distributed Systems</b>, <b>Cloud Computing</b>, <b>Functional Programming</b> and <b>Full Stack Web Development</b>.
               </p>
               <p className='mt-8'>
-                I majored in Computer Engineer from <u><Href href='https://www.poli.usp.br/'>POLI-USP</Href></u>,
+                I majored in Computer Engineering from <u><Href href='https://www.poli.usp.br/'>POLI-USP</Href></u>,
                 currently working as a Senior Staff Engineer at <u><Href href='https://nubank.com.br'>Nubank</Href></u> with Clojure.
               </p>
             </div>
