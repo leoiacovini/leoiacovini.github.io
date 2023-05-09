@@ -44,8 +44,8 @@ function EmailIcon() {
 export default function NewHome() {
   return (
     <>
-      <main className='flex flex-col justify-center items-center set-c h-full'>
-        <div className=' border-dotted border-neutral-600 p-4 rounded-lg w-8/12'>
+      <main className='flex flex-col justify-center items-center set-c min-h-screen md:py-0 py-8'>
+        <div className=' border-dotted border-neutral-600 md:p-4 rounded-lg w-8/12'>
           <h1 className='text-4xl mb-12'>Hi, I am <u>Leonardo Iacovini</u></h1>
           <div className='md:flex md:flex-row flex-wrap'>
             <div className='text-lg mt-4'>
@@ -61,7 +61,7 @@ export default function NewHome() {
           <p className='mt-8 text-lg'>
             You can find more about me below.
           </p>
-          <div className='flex flex-row justify-evenly mt-8'>
+          <div className='flex flex-row justify-evenly flex-wrap mt-8'>
             <a href='https://linkedin.com/in/leoiacovini' target='_blank'><LinkedinIcon /></a>
             <a href='https://github.com/leoiacovini' target='_blank'><GithubIcon /></a>
             <a href='https://twitter.com/leoiacovini' target='_blank'><TwitterIcon /></a>
